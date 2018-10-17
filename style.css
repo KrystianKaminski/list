@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+}
+
+.menu {
+    height: 15vh;
+    position: fixed;
+    width: 100%;
+    background-color: #EA2027;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__logo {
+    background-image: url('food-scale-tool.png');
+    height: 90%;
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+}
+
+/* .menu__img {
+    height: auto;
+    max-width: 100%;
+    width: 35%;
+} */
+
+.menu__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    flex-basis: 100%;
+}
+
+.menu__link {
+    line-height: 15vh;
+    height: 15vh;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0 20px;
+    transition: .2s;
+}
+
+.menu__link:hover {
+    background-color: black;
+}
